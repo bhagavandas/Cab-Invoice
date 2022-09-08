@@ -1,5 +1,6 @@
 package com.CabInvoice;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 import org.junit.Test;
@@ -9,7 +10,7 @@ import junit.framework.Assert;
 public class CabInvoiceTest {
 	
 	@Test
-	public void givenDistanceAndTimeWhenFareIsFiveShouldBeTotalFare() {
+	public void givenDistanceAndTimeWhenFareIsFiveShouldBeTotalFare() throws IOException {
 		
 		CabInvoiceMain cab = new CabInvoiceMain();
 		int result = cab.calculateFare(10);
@@ -19,7 +20,7 @@ public class CabInvoiceTest {
 	}
 	
 	@Test
-	public void givenDistanceAndTimeWhenFareIsFiveForMultipleRidesShouldBeMultipleTotalFare() {
+	public void givenDistanceAndTimeWhenFareIsFiveForMultipleRidesShouldBeMultipleTotalFare() throws IOException {
 		
 		CabInvoiceMain cab = new CabInvoiceMain();
 		Scanner scan = new Scanner(System.in);
@@ -28,7 +29,7 @@ public class CabInvoiceTest {
 		System.out.println("Enter number of trips: ");
 		int trips = scan.nextInt();
 		int totalFare = result * trips;
-		//int totalfare = cab.totalFare;
+		
 		Assert.assertEquals(totalFare, result*trips);
 		System.out.println(totalFare);
 		

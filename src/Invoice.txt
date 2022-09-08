@@ -1,0 +1,4 @@
+INVOICE :  
+1. Total number of Rides: 5 
+2. Total Fare: 250
+3. Average Fare per Ride: 50
