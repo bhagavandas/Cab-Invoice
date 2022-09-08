@@ -14,6 +14,7 @@ public class CabInvoiceMain {
 				System.out.println(" 1. For Single Trip\n 2. For multiple Trips ");
 				System.out.print(" Please enter your choice: ");
 				Scanner scan = new Scanner(System.in);
+				
 				String option = scan.next();
 
 				switch (option) {
@@ -22,10 +23,24 @@ public class CabInvoiceMain {
 					totalFare = distance * minFarePerKm;
 					System.out.println("Single trip Fare: " + totalFare);
 					break;
+				case "2":
+					totalFare = distance * minFarePerKm;
+					System.out.println("Enter number of trips you want: ");
+					int numberOfTrips = scan.nextInt();
+					int trips = numberOfTrips * totalFare;
+//					int total = 0;
+//					for (int i = 1; i <= 10; i++) {
+//						total = total + totalFare;
+						count++;
+					//}
 
+					//System.out.println("Multiple trips Total Fare: " + total);
+						System.out.println("Multiple trips Total Fare: " + trips);
+					break;
+				default:
+					System.out.println("Invalid entry");
 				}
-
-			} while (count < 10);
+			} while (count < 1);
 			{
 
 			}
