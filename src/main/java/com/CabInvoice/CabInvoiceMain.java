@@ -33,7 +33,6 @@ public class CabInvoiceMain {
 //						total = total + totalFare;
 					count++;
 					// }
-
 					// System.out.println("Multiple trips Total Fare: " + total);
 					System.out.println("Multiple trips Total Fare: " + trips);
 					break;
