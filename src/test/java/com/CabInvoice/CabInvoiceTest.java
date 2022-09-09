@@ -13,9 +13,9 @@ public class CabInvoiceTest {
 	public void givenDistanceAndTimeWhenFareIsFiveShouldBeTotalFare() throws IOException {
 		
 		CabInvoiceMain cab = new CabInvoiceMain();
-		int result = cab.calculateFare(10);
+		double result = cab.calculateFare(5, 15);
 		//int totalfare = cab.totalFare;
-		Assert.assertEquals(50, result);
+		Assert.assertEquals(cab.totalFare, result);
 		
 	}
 	
@@ -25,10 +25,10 @@ public class CabInvoiceTest {
 		CabInvoiceMain cab = new CabInvoiceMain();
 		Scanner scan = new Scanner(System.in);
 		
-		int result = cab.calculateFare(10);
+		double result = cab.calculateFare(5, 15);
 		System.out.println("Enter number of trips: ");
 		int trips = scan.nextInt();
-		int totalFare = result * trips;
+		double totalFare = result * trips;
 		
 		Assert.assertEquals(totalFare, result*trips);
 		System.out.println(totalFare);
