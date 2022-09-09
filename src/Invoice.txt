@@ -1,0 +1,40 @@
+User ID 1 :  
+1. Total number of Rides: 10 
+2. Total Fare: 500.0
+3. Average Fare per Ride: 50.0
+User ID 1 :  
+1. Total number of Rides: 10 
+2. Total Fare: 500.0
+3. Average Fare per Ride: 50.0
+User ID 1 :  
+1. Total number of Rides: 5 
+2. Total Fare: 250.0
+3. Average Fare per Ride: 50.0
+User ID 1 :  
+1. Total number of Rides: 5 
+2. Total Fare: 250.0
+3. Average Fare per Ride: 50.0
+User ID 1 :  
+1. Total number of Rides: 5 
+2. Total Fare: 250.0
+3. Average Fare per Ride: 50.0
+User ID 1 :  
+1. Total number of Rides: 10 
+2. Total Fare: 1000.0
+3. Average Fare per Ride: 100.0
+User ID 1 :  
+1. Total number of Rides: 10 
+2. Total Fare: 500.0
+3. Average Fare per Ride: 50.0
+User ID 1 :  
+1. Total number of Rides: 10 
+2. Total Fare: 500.0
+3. Average Fare per Ride: 50.0
+User ID 1 :  
+1. Total number of Rides: 10 
+2. Total Fare: 500.0
+3. Average Fare per Ride: 50.0
+User ID 1 :  
+1. Total number of Rides: 5 
+2. Total Fare: 250.0
+3. Average Fare per Ride: 50.0
